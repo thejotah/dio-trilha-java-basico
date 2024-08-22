@@ -12,14 +12,25 @@ public class Operadores {
        //primeiro imprimir / depois acrescentar +1
 
        System.out.println(++numero);
-       //acrescentar +1 / depois imprimir com o resultado
+       //acrescentar (+1) / depois imprimir com o resultado
 
        System.out.println(numero);
 
        System.out.println(numero--);
-       //restirar -1 / depois imprimir com o resultado
+       //retirar (-1) / depois imprimir com o resultado
 
        System.out.println(numero);
+
+       boolean variavel = true;
+
+       System.out.println(!variavel);
+       //! = inverte o valor da variavel (false) 
+       //porem o valor original da variavel continua sendo (true)
+
+       variavel = !variavel;
+       //dessa forma altera o valor original da variavel
+
+       System.out.println(variavel);
 
 
     }
